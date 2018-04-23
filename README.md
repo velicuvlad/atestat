@@ -10,14 +10,14 @@ Personal Blog is a website dedicated to people all over. We offer a platform to 
 </ul>
 
 <h2><i>System requirements - For development</i></h2>
-Stable internet connection
-Terminal (Ubuntu's Command Line or Windows equivalent)
-NodeJS v9.11.1 (minimum)
-npm (minimum 5.8.0)
-Browser that uses JavaScript
-Browser that supports LocalStorage (Chrome, Firefox etc)
-MongoDB installed (for development we used port 27017)
-
+<ul>
+<li>Stable internet connection</li>
+<li>Terminal (Ubuntu's Command Line or Windows equivalent)</li>
+<li>NodeJS v9.11.1 (minimum)</li>
+<li>npm (minimum 5.8.0)</li>
+<li>Browser that uses JavaScript</li>
+<li>Browser that supports LocalStorage (Chrome, Firefox etc)</li>
+</ul>
 <p>To check for a current installed version of NodeJS or npm, run the following commands:</p>
 
 ```shell

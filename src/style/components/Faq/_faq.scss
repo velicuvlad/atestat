@@ -1,0 +1,36 @@
+.faq-middle {
+  body {
+    background: #141319;
+    font-family: ssp;
+    font-size: 1vw;
+  }
+  p {
+    text-align: center;
+    font-family: Bebas;
+    font-size: 2vw;
+  }
+  .black {
+    color: white;
+    height: auto;
+    padding: 2vw;
+  }
+  .white {
+    color: #141319;
+    background: white;
+    height: auto;
+    padding: 2vw;
+  }
+
+  .main-upper-noFlex {
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: #3f7e9f;
+  }
+  h1 {
+    color: #3f7e9f;
+    font-family: Bebas;
+    font-size: 3vw;
+  }
+}

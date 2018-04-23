@@ -1,0 +1,1 @@
+<?php $_SESSION['user_id'] = 9;

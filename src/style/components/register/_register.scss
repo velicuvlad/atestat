@@ -1,0 +1,248 @@
+@font-face{
+  font-family: Bebas;
+  src: url('../../../../BEBAS___.TTF');
+}
+@font-face{
+  font-family: SSP;
+  src: url('../../../../SourceSansPro-Regular.ttf');
+}
+/*Responsive menu-start*/
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #484343;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/*Responsive menu-end*/
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container-register {
+  padding: 1px 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../../../../back-login.jpg");
+  background-size: cover;
+  color: #fff;
+  font-family: "Comfortaa", "Helvetica", sans-serif;
+}
+.login {
+  width: 300px;
+  height: 600px;
+  margin: 30px auto;
+  background-color: rgba(10,10,10,.68);
+}
+
+
+.login-form {
+  padding: 8px 20px 20px;
+  margin:0;
+  width: 100%;
+  /*background-color: green;*/
+}
+
+
+
+.username-row {
+  position: relative;
+  height: 40px;
+  /*background-color: pink;*/
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+.email-row {
+  position: relative;
+  height: 40px;
+  /*background-color: pink;*/
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+
+.password-row {
+  position: relative;
+  height: 40px;
+  /* background-color: grey;*/
+  border-bottom: 1px solid;
+}
+.cpassword-row {
+  position: relative;
+  height: 40px;
+  /* background-color: grey;*/
+  border-bottom: 1px solid;
+}
+
+.fname-row {
+  position: relative;
+  height: 40px;
+  /*background-color: pink;*/
+  border-bottom: 1px solid;
+}
+.lname-row {
+  position: relative;
+  height: 40px;
+  /*background-color: pink;*/
+  border-bottom: 1px solid;
+}
+.birth-row {
+  position: relative;
+  height: 40px;
+  /*background-color: pink;*/
+  border-bottom: 1px solid;
+}
+
+.button-wrapper{
+  width: 100%;
+  text-align: center;
+  margin: 15px auto;
+}
+
+.input-register {
+  width: 240px;
+  height: 40px;
+  padding: 0;
+  font-weight: 700;
+  color: #fff;
+  background-color: #31647f;
+  border: none;
+  border-radius: 20px;
+  transition: background-color .10s ease-in-out;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+.input-register:hover {
+  background-color: #458bac;
+}
+
+.input-register:active {
+  background-color: #4fa4cb;
+}
+
+.call-to-action {
+  margin: 22px 0;
+  height: 130px;
+  width: 100%;
+  /*background-color: blue;*/
+}
+
+.login-button {
+  display: block;
+  width: 240px;
+  height: 40px;
+  padding: 0;
+  margin: 10px 20px 10px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #31647f;
+  border: none;
+  border-radius: 20px;
+  transition: background-color .10s ease-in-out;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+.login-button:hover {
+  background-color: #458bac;
+}
+
+.login-button:active {
+  background-color: #4fa4cb;
+}
+
+.p-register {
+  display: inline-block;
+  width: 200px;
+  margin: 0 40px;
+  font-size: .8rem;
+  color: rgba(255,255,255,.4);
+  /*background-color: yellow;*/
+}
+
+.p-register a {
+  color: #fff;
+}
+
+label,
+.p-register a:hover {
+  -webkit-cursor: pointer;
+  cursor: pointer;
+}
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+/*select*/
+.styled{
+  margin: 15px auto;
+  width:70%;
+  height:30px;
+  border:0;
+  color:#366986;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}

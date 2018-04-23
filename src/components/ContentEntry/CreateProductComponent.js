@@ -94,7 +94,7 @@ var CreateProductComponent = React.createClass({
 
                     this.state.successCreation == "true" ?
                         <div className='alert alert-success'>
-                            Articolul a fost salvat. Te rugam sa reincarci pagina pentru a putea vedea rezultatele.
+                            Article has been saved. Please reload the page in order to view the changes.
                         </div>
                         : null
                 }
@@ -103,7 +103,7 @@ var CreateProductComponent = React.createClass({
 
                     this.state.successCreation == "false" ?
                         <div className='alert alert-danger'>
-                            Articolul nu a putut fi salvat. Te rugam sa incerci din nou.
+                            Article cannot be saved. Please try again.
                         </div>
                         : null
                 }
@@ -111,7 +111,7 @@ var CreateProductComponent = React.createClass({
                       className="btn btn-primary margin-bottom-1em"
                       onClick={() => this.props.changeAppMode('readOne', this.props.productId)}
                 >
-                    Reincarca pagina
+                    Reload page
                 </Link>
 
 
@@ -119,7 +119,7 @@ var CreateProductComponent = React.createClass({
                     <table className='table'>
                         <tbody>
                         <tr>
-                            <td>Numele articolului</td>
+                            <td>Name</td>
                             <td>
                                 <input
                                     type='text'
@@ -131,7 +131,7 @@ var CreateProductComponent = React.createClass({
                         </tr>
 
                         <tr>
-                            <td>Descriere</td>
+                            <td>Description</td>
                             <td>
                         <textarea
                             type='text'
@@ -146,7 +146,7 @@ var CreateProductComponent = React.createClass({
                         </tr>
 
                         <tr>
-                            <td>Genul articolului</td>
+                            <td>Type</td>
                             <td>
                                 <select
                                     onChange={this.onCategoryChange}
@@ -159,7 +159,7 @@ var CreateProductComponent = React.createClass({
                         </tr>
 
                         <tr>
-                            <td>Poza de coperta</td>
+                            <td>Picture</td>
                             <td>
                                 <input
                                     type="text"
@@ -175,13 +175,13 @@ var CreateProductComponent = React.createClass({
                             <td>
                                 <Link to="/content.php"
                                       className='btn btn-primary'
-                                      onClick={this.onSave}>Salveaza
+                                      onClick={this.onSave}>Save
                                 </Link>
                                 <Link to="/content.php"
                                       className="btn btn-danger"
                                       onClick={() => this.props.changeAppMode('readOne', this.props.productId)}
                                 >
-                                    Anuleaza
+                                    Cancel
                                 </Link>
                             </td>
                         </tr>

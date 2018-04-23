@@ -27782,7 +27782,7 @@
 	                    _react2.default.createElement(
 	                      "a",
 	                      { href: "indexlogged.php" },
-	                      "Acasa"
+	                      "Home"
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -27791,7 +27791,7 @@
 	                    _react2.default.createElement(
 	                      "a",
 	                      { href: "content_newest.php" },
-	                      "Articole"
+	                      "Articles"
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -27800,7 +27800,7 @@
 	                    _react2.default.createElement(
 	                      "a",
 	                      { href: "content.php" },
-	                      "Articolele mele"
+	                      "My articles"
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -27913,7 +27913,7 @@
 	                _react2.default.createElement(
 	                    'div',
 	                    { className: 'contentTitle' },
-	                    'Administrare Articole'
+	                    'Admin Articles'
 	                ),
 	                _react2.default.createElement(_TopActionsComponent2.default, { changeAppMode: this.changeAppMode }),
 	                _react2.default.createElement(_ProductsTable2.default, {
@@ -38338,7 +38338,7 @@
 	                    { to: 'content.php',
 	                        className: 'btn btn-primary'
 	                    },
-	                    'Adauga un articol nou'
+	                    'Add a new article'
 	                )
 	            )
 	        );
@@ -38383,7 +38383,7 @@
 	        return !rows.length ? _react2.default.createElement(
 	            'div',
 	            { className: 'alert alert-danger' },
-	            'Niciun articol adaugat. Incepe sa adaugi si ele vor aparea aici'
+	            'No articles. Start posting and they will appear here.'
 	        ) : _react2.default.createElement(
 	            'div',
 	            null,
@@ -38430,7 +38430,7 @@
 	                            return _this.props.changeAppMode('readOne', _this.props.product.id);
 	                        } },
 	                    _react2.default.createElement('img', { className: 'left_img', src: this.props.product.photo,
-	                        alt: 'Utilizatorul nu a pus la dispozitie nicio poza sau ea nu a putut fi incarcata.' }),
+	                        alt: 'No photo available' }),
 	                    _react2.default.createElement(
 	                        'div',
 	                        { className: 'productName' },
@@ -38789,12 +38789,12 @@
 	            this.state.successCreation == "true" ? _react2.default.createElement(
 	                'div',
 	                { className: 'alert alert-success' },
-	                'Articolul a fost salvat. Te rugam sa reincarci pagina pentru a putea vedea rezultatele.'
+	                'Article has been saved. Please reload the page in order to view the changes.'
 	            ) : null,
 	            this.state.successCreation == "false" ? _react2.default.createElement(
 	                'div',
 	                { className: 'alert alert-danger' },
-	                'Articolul nu a putut fi salvat. Te rugam sa incerci din nou.'
+	                'Article cannot be saved. Please try again.'
 	            ) : null,
 	            _react2.default.createElement(
 	                _reactRouter.Link,
@@ -38804,7 +38804,7 @@
 	                        return _this.props.changeAppMode('readOne', _this.props.productId);
 	                    }
 	                },
-	                'Reincarca pagina'
+	                'Reload page'
 	            ),
 	            _react2.default.createElement(
 	                'form',
@@ -38821,7 +38821,7 @@
 	                            _react2.default.createElement(
 	                                'td',
 	                                null,
-	                                'Numele articolului'
+	                                'Name'
 	                            ),
 	                            _react2.default.createElement(
 	                                'td',
@@ -38840,7 +38840,7 @@
 	                            _react2.default.createElement(
 	                                'td',
 	                                null,
-	                                'Descriere'
+	                                'Description'
 	                            ),
 	                            _react2.default.createElement(
 	                                'td',
@@ -38861,7 +38861,7 @@
 	                            _react2.default.createElement(
 	                                'td',
 	                                null,
-	                                'Genul articolului'
+	                                'Type'
 	                            ),
 	                            _react2.default.createElement(
 	                                'td',
@@ -38887,7 +38887,7 @@
 	                            _react2.default.createElement(
 	                                'td',
 	                                null,
-	                                'Poza de coperta'
+	                                'Picture'
 	                            ),
 	                            _react2.default.createElement(
 	                                'td',
@@ -38912,7 +38912,7 @@
 	                                    { to: '/content.php',
 	                                        className: 'btn btn-primary',
 	                                        onClick: this.onSave },
-	                                    'Salveaza'
+	                                    'Save'
 	                                ),
 	                                _react2.default.createElement(
 	                                    _reactRouter.Link,
@@ -38922,7 +38922,7 @@
 	                                            return _this.props.changeAppMode('readOne', _this.props.productId);
 	                                        }
 	                                    },
-	                                    'Anuleaza'
+	                                    'Cancel'
 	                                )
 	                            )
 	                        )
@@ -39063,12 +39063,12 @@
 	            this.state.successUpdate == "true" ? _react2.default.createElement(
 	                'div',
 	                { className: 'alert alert-success' },
-	                'Articolul a fost updatat.Te rugam sa reincarci pagina ca sa vezi rezultatele.'
+	                'The article has been updated.Please reload the page in order to view the changes.'
 	            ) : null,
 	            this.state.successUpdate == "false" ? _react2.default.createElement(
 	                'div',
 	                { className: 'alert alert-danger' },
-	                'Articolul nu a putut fi updatat. Te rugam sa incerci din nou.'
+	                'The article cannot be updated. Please try again.'
 	            ) : null,
 	            _react2.default.createElement(
 	                _reactRouter.Link,
@@ -39095,7 +39095,7 @@
 	                            _react2.default.createElement(
 	                                'td',
 	                                null,
-	                                'Nume'
+	                                'Name'
 	                            ),
 	                            _react2.default.createElement(
 	                                'td',
@@ -39114,7 +39114,7 @@
 	                            _react2.default.createElement(
 	                                'td',
 	                                null,
-	                                'Descriere'
+	                                'Description'
 	                            ),
 	                            _react2.default.createElement(
 	                                'td',
@@ -39133,7 +39133,7 @@
 	                            _react2.default.createElement(
 	                                'td',
 	                                null,
-	                                'Pret'
+	                                'Price'
 	                            ),
 	                            _react2.default.createElement(
 	                                'td',
@@ -39153,7 +39153,7 @@
 	                            _react2.default.createElement(
 	                                'td',
 	                                null,
-	                                'Genul'
+	                                'Type'
 	                            ),
 	                            _react2.default.createElement(
 	                                'td',
@@ -39179,26 +39179,7 @@
 	                            _react2.default.createElement(
 	                                'td',
 	                                null,
-	                                'Demo link'
-	                            ),
-	                            _react2.default.createElement(
-	                                'td',
-	                                null,
-	                                _react2.default.createElement('input', {
-	                                    type: 'text',
-	                                    className: 'form-control',
-	                                    value: this.state.link,
-	                                    required: true,
-	                                    onChange: this.onLinkChange })
-	                            )
-	                        ),
-	                        _react2.default.createElement(
-	                            'tr',
-	                            null,
-	                            _react2.default.createElement(
-	                                'td',
-	                                null,
-	                                'Poza de coperta'
+	                                'Picture'
 	                            ),
 	                            _react2.default.createElement(
 	                                'td',
@@ -39209,24 +39190,6 @@
 	                                    value: this.state.photo,
 	                                    required: true,
 	                                    onChange: this.onPhotoChange })
-	                            )
-	                        ),
-	                        _react2.default.createElement(
-	                            'tr',
-	                            null,
-	                            _react2.default.createElement(
-	                                'td',
-	                                null,
-	                                'Link spre trailer Youtube'
-	                            ),
-	                            _react2.default.createElement(
-	                                'td',
-	                                null,
-	                                _react2.default.createElement('input', {
-	                                    type: 'text',
-	                                    className: 'form-control',
-	                                    value: this.state.yt_link,
-	                                    onChange: this.onYTChange })
 	                            )
 	                        ),
 	                        _react2.default.createElement(
@@ -39251,7 +39214,7 @@
 	                                            return _this.props.changeAppMode('readOne', _this.props.productId);
 	                                        }
 	                                    },
-	                                    'Anuleaza'
+	                                    'Cancel'
 	                                )
 	                            )
 	                        )
@@ -39309,7 +39272,7 @@
 	            _react2.default.createElement(
 	                'p',
 	                null,
-	                'Esti sigur ca vrei sa stergi acest articol? Nu il vei putea recupera.'
+	                'Are you sure about deleting this post?'
 	            ),
 	            _react2.default.createElement(
 	                _reactRouter.Link,
@@ -39322,7 +39285,7 @@
 	                    'button',
 	                    { onClick: this.onDelete,
 	                        className: 'btn btn-danger m-r-1em' },
-	                    'Da'
+	                    'Yes'
 	                )
 	            ),
 	            _react2.default.createElement(
@@ -39335,7 +39298,7 @@
 	                    'button',
 	                    {
 	                        className: 'btn btn-primary' },
-	                    'Nu'
+	                    'No'
 	                )
 	            )
 	        );

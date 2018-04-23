@@ -13,7 +13,7 @@ sec_session_start();
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Level Up | Rezultate</title>
+        <title>Personal Blog | Results</title>
 
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/react/0.12.2/JSXTransformer.js"></script>
@@ -63,7 +63,7 @@ sec_session_start();
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Level Up | Rezultate</title>
+        <title>Personal Blog | Results</title>
 
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/react/0.12.2/JSXTransformer.js"></script>
@@ -71,7 +71,7 @@ sec_session_start();
 
         <link href="libs/css/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
         <link rel="stylesheet" href="src/style/entry/main.css">
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
 
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>

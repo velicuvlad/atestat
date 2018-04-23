@@ -17,7 +17,7 @@ var ProductsTable = React.createClass({
 
         return (
             !rows.length
-                ? <div className='alert alert-danger'>Niciun articol adaugat. Incepe sa adaugi si ele vor aparea aici</div>
+                ? <div className='alert alert-danger'>No articles. Start posting and they will appear here.</div>
                 :
                 <div>
                     {rows}

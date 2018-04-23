@@ -56,7 +56,7 @@ var ReadProductsComponent = React.createClass({
         return (
             <div>
                 <div className="left">
-                    <div className="contentTitle">Toate Articolele</div>
+                    <div className="contentTitle">All articles</div>
 
                     <ProductsTable
                         products={filteredProducts}

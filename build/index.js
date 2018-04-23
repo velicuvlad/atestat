@@ -38134,12 +38134,12 @@
 	                    _react2.default.createElement(
 	                        'p',
 	                        null,
-	                        'Bine ai venit!'
+	                        'Welcome to our site.'
 	                    ),
 	                    _react2.default.createElement(
 	                        'p',
 	                        { className: 'p-text' },
-	                        'Bine ai venit pe site-ul nostru. Daca nu esti inregistrat deja, te rugam sa o faci. Poti incepe chiar acum sa cauti articole care te-ar interesa'
+	                        'If you have not already registered, please do it.'
 	                    ),
 	                    _react2.default.createElement(
 	                        'button',
@@ -38148,7 +38148,7 @@
 	                            'a',
 	                            { href: 'content_newest.php',
 	                                className: 'link-on-button' },
-	                            'Vezi toate articolele'
+	                            'All articles'
 	                        )
 	                    )
 	                ),
@@ -38161,7 +38161,7 @@
 	                        _react2.default.createElement(
 	                            'p',
 	                            null,
-	                            'Categorii de articole'
+	                            'Categories'
 	                        ),
 	                        _react2.default.createElement(
 	                            'ul',
@@ -38196,7 +38196,7 @@
 	                                _react2.default.createElement(
 	                                    'li',
 	                                    null,
-	                                    'News'
+	                                    'Landmarks'
 	                                )
 	                            ),
 	                            _react2.default.createElement(
@@ -38220,7 +38220,7 @@
 	                _react2.default.createElement(
 	                    'p',
 	                    null,
-	                    'Cele mai noi articole'
+	                    'News'
 	                )
 	            ),
 	            _react2.default.createElement(
@@ -38294,7 +38294,7 @@
 	                                        _react2.default.createElement(
 	                                            "a",
 	                                            { href: "index.php" },
-	                                            "Acasa"
+	                                            "Home"
 	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
@@ -38303,7 +38303,7 @@
 	                                        _react2.default.createElement(
 	                                            "a",
 	                                            { href: "content_newest.php" },
-	                                            "Articole"
+	                                            "Articles"
 	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
@@ -38465,7 +38465,7 @@
 	        return !rows.length ? _react2.default.createElement(
 	            'div',
 	            { className: 'alert alert-danger' },
-	            'Nu a putut fi gasit niciun articol dupa filtrele dumneavoastra.'
+	            'Cannot find any articles'
 	        ) : _react2.default.createElement(
 	            'div',
 	            { className: 'product-background' },
@@ -38512,7 +38512,7 @@
 	                            return _this.props.changeAppMode('readOne', _this.props.product.id);
 	                        } },
 	                    _react2.default.createElement('img', { className: 'left_img', src: this.props.product.photo,
-	                        alt: 'Utilizatorul nu a pus la dispozitie nicio poza sau ea nu a putut fi incarcata.' }),
+	                        alt: 'No photo available' }),
 	                    _react2.default.createElement(
 	                        'div',
 	                        { className: 'productName' },

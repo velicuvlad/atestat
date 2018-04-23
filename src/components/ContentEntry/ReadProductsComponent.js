@@ -52,7 +52,7 @@ var ReadProductsComponent = React.createClass({
         return (
             <div>
                 <div className="left">
-                    <div className="contentTitle">Administrare Articole</div>
+                    <div className="contentTitle">Admin Articles</div>
                     <TopActionsComponent changeAppMode={this.changeAppMode}/>
 
                     <ProductsTable

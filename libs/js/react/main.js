@@ -228,7 +228,6 @@ var ProductsTable = React.createClass({
                         <th>Description</th>
                         <th>Price</th>
                         <th>Category</th>
-                        <th>Action</th>
                     </tr>
                     </thead>
                     <tbody>

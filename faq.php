@@ -8,7 +8,7 @@ sec_session_start();
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Level Up | Frequently Asked Questions</title>
+    <title>Personal Blog | Frequently Asked Questions</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
           crossorigin="anonymous">

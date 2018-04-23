@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Level Up | Registration Successful</title>
+    <title>Personal Blog | Registration Successful</title>
     <link rel="stylesheet" href="/src/style/entry/main.css" />
 </head>
 <body class="bodylogin">

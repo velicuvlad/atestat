@@ -22209,7 +22209,7 @@
 	                    _react2.default.createElement(
 	                        "h1",
 	                        null,
-	                        "Intrebari frecvente"
+	                        "Common questions"
 	                    ),
 	                    _react2.default.createElement(
 	                        "div",
@@ -22217,12 +22217,12 @@
 	                        _react2.default.createElement(
 	                            "p",
 	                            null,
-	                            "De ce site-ul nostru?"
+	                            "Why us?"
 	                        ),
 	                        _react2.default.createElement(
 	                            "span",
 	                            null,
-	                            "Oferim un mod simplu de a iti promova jocul gratis. Noi iti cerem doar un demo pe care utilizatorii nostri il downloadeaza si iti dau un like sau nu. De asemenea trebuie sa incluzi si un trailer. Astfel speram ca te vom ajuta sa iti faci jocul cunoscut si ca , in final, il vei putea promova pe unul dintre maganizele online de jocuri cum ar fi Steam si Origin. De la noi pleci cu suporteri ai ideii tale."
+	                            "We share our everyday experience online and help others to make their day better."
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -22231,12 +22231,12 @@
 	                        _react2.default.createElement(
 	                            "p",
 	                            null,
-	                            "De ce site-ul nostru este diferit de altele?"
+	                            "Why are we different?"
 	                        ),
 	                        _react2.default.createElement(
 	                            "span",
 	                            null,
-	                            "Noi planuim in a folosi un sistem ca cel de pe Facebook unde postarile cele mai noi sunt in varf. Pe langa acestea vom adauga diferite topuri in care jocul tau ar putea urca. Design-ul site-ului nostru este accesibil si usor de utilizat de catre utilizatori cu diferite experiente in navigarea pe internet."
+	                            "Like Facebook, we have our news so i can be up-to-date with everything new. Moreover, its user friendly."
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -22245,18 +22245,18 @@
 	                        _react2.default.createElement(
 	                            "p",
 	                            null,
-	                            "Cum pot incepe?"
+	                            "How can u start?"
 	                        ),
 	                        _react2.default.createElement(
 	                            "span",
 	                            null,
-	                            "Este foarte simplu! Iti creezi un cont",
+	                            "It's simple. Create an account ",
 	                            _react2.default.createElement(
 	                                "a",
 	                                {
 	                                    href: "register.php",
 	                                    target: "_blank" },
-	                                "aici"
+	                                "here"
 	                            ),
 	                            "."
 	                        )
@@ -22267,16 +22267,16 @@
 	                        _react2.default.createElement(
 	                            "p",
 	                            null,
-	                            "Nu stiu cum sa adaug un joc nou."
+	                            "I don't know how to add a memo."
 	                        ),
 	                        _react2.default.createElement(
 	                            "span",
 	                            null,
-	                            "In momentul in care te-ai logat pe site, in coltul din dreapta sus vei avea un buton pe care scrie Administrare Jocuri. Acolo vei putea incepe sa adaugi jocuri.Daca nu il poti vedea, foloseste acest link :",
+	                            "After you log in,in the top right corner you will see Admin Articles button",
 	                            _react2.default.createElement(
 	                                "a",
 	                                { href: "content.php", target: "_blank" },
-	                                "Administrare Jocuri"
+	                                " Admin Articles"
 	                            )
 	                        )
 	                    ),
@@ -22286,18 +22286,18 @@
 	                        _react2.default.createElement(
 	                            "p",
 	                            null,
-	                            "Sunt pe pagina ",
+	                            "I'm on the page ",
 	                            _react2.default.createElement(
 	                                "a",
 	                                { href: "content.php", target: "_blank" },
-	                                "Administrare Jocuri "
+	                                "Admin Articles "
 	                            ),
-	                            "si nu pot adauga jocuri!"
+	                            "and i can't add any."
 	                        ),
 	                        _react2.default.createElement(
 	                            "span",
 	                            null,
-	                            "Verifica daca esti logat si daca esti pe pagina corecta."
+	                            "Check if you are logged in again."
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -22306,12 +22306,12 @@
 	                        _react2.default.createElement(
 	                            "p",
 	                            null,
-	                            "Nu mi se incarca paginile site-ului"
+	                            "The page is not loading"
 	                        ),
 	                        _react2.default.createElement(
 	                            "span",
 	                            null,
-	                            "Te rugam sa incerci sa reincarci pagina. Este posibil ca browserul dumneavoastra sa nu suporte Javascript sau localStorage."
+	                            "Please try to reload. It may be caused by your browser if it doesn't support either Javascript or localStorage."
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -22320,32 +22320,18 @@
 	                        _react2.default.createElement(
 	                            "p",
 	                            null,
-	                            "Cum pot face ca link-ul trailer-ului meu sa apara pe pagina jocului meu?"
+	                            "Picture not shown."
 	                        ),
 	                        _react2.default.createElement(
 	                            "span",
 	                            null,
-	                            "Este nevoie de inlocuiesti watch?v= din link cu embed/ . Link-ul tau va arata astfel: exemplu : https://www.youtube.com/embed/...  unde punctele reprezinta ce se afla dupa watch?v= in link-ul initial"
-	                        )
-	                    ),
-	                    _react2.default.createElement(
-	                        "div",
-	                        { className: "white" },
-	                        _react2.default.createElement(
-	                            "p",
-	                            null,
-	                            "Nu imi apare poza de coperta"
-	                        ),
-	                        _react2.default.createElement(
-	                            "span",
-	                            null,
-	                            "Te rugam sa incerci sa downloadezi poza respectiva si sa o uploadezi pe",
+	                            "Try to download the picture and upload it on",
 	                            _react2.default.createElement(
 	                                "a",
 	                                { href: "http://imgur.com/", target: "_blank" },
-	                                "http://imgur.com/"
+	                                " http://imgur.com "
 	                            ),
-	                            "( este GRATIS ) apoi foloseste acel link ca sa iti pui poza de coperta."
+	                            "( is free )."
 	                        )
 	                    ),
 	                    _react2.default.createElement(
@@ -22354,12 +22340,12 @@
 	                        _react2.default.createElement(
 	                            "p",
 	                            null,
-	                            "Nu imi apare numele pe pagina jocului."
+	                            "I can't see my name in the post."
 	                        ),
 	                        _react2.default.createElement(
 	                            "span",
 	                            null,
-	                            "Problema este cunoscuta si se va remedia in curand."
+	                            "We know about that. The fix coming soon."
 	                        )
 	                    )
 	                )
@@ -22432,7 +22418,7 @@
 	                    _react2.default.createElement(
 	                      "a",
 	                      { href: "index.php" },
-	                      "Acasa"
+	                      "Home"
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -22441,7 +22427,7 @@
 	                    _react2.default.createElement(
 	                      "a",
 	                      { href: "content_newest.php" },
-	                      "Articole"
+	                      "Articles"
 	                    )
 	                  ),
 	                  _react2.default.createElement(

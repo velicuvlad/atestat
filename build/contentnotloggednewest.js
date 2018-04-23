@@ -38181,7 +38181,7 @@
 	                    _react2.default.createElement(
 	                      "a",
 	                      { href: "index.php" },
-	                      "Acasa"
+	                      "Home"
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -38190,7 +38190,7 @@
 	                    _react2.default.createElement(
 	                      "a",
 	                      { href: "content_newest.php" },
-	                      "Articole"
+	                      "Articles"
 	                    )
 	                  ),
 	                  _react2.default.createElement(
@@ -38310,7 +38310,7 @@
 	                _react2.default.createElement(
 	                    'div',
 	                    { className: 'contentTitle' },
-	                    'Toate Articolele'
+	                    'All articles'
 	                ),
 	                _react2.default.createElement(_ProductsTable2.default, {
 	                    products: filteredProducts,
@@ -38362,7 +38362,7 @@
 	        return !rows.length ? _react2.default.createElement(
 	            'div',
 	            { className: 'alert alert-danger' },
-	            'Nu a putut fi gasit niciun articol dupa filtrele dumneavoastra.'
+	            'Cannot find any articles according to filters.'
 	        ) : _react2.default.createElement(
 	            'div',
 	            { className: 'product-background' },
@@ -38409,7 +38409,7 @@
 	                            return _this.props.changeAppMode('readOne', _this.props.product.id);
 	                        } },
 	                    _react2.default.createElement('img', { className: 'left_img', src: this.props.product.photo,
-	                        alt: 'Utilizatorul nu a pus la dispozitie nicio poza sau ea nu a putut fi incarcata.' }),
+	                        alt: 'No photo available' }),
 	                    _react2.default.createElement(
 	                        'div',
 	                        { className: 'productName' },

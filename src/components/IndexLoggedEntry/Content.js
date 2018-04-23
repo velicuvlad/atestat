@@ -19,22 +19,19 @@ var Content = React.createClass({
 
                 <div className="container">
                     <div className="content">
-                        <p >Bine ai venit!</p>
-                        <p className="p-text">Bine ai venit pe site-ul nostru. Daca nu esti inregistrat deja, te rugam
-                            sa o faci. Poti
-                            incepe chiar acum sa
-                            cauti articole care te-ar interesa</p>
+                        <p >Hi there!</p>
+                        <p className="p-text">If you have not already registered, please do it.</p>
                         <button type="button" className="btn btn-primary">
                             <a href="content_newest.php"
-                            className="link-on-button">Vezi toate articolele</a>
+                            className="link-on-button">See all articles</a>
                         </button>
                     </div>
                     <div className="categories">
-                        <div className="categories_content"><p>Categorii de articole</p>
+                        <div className="categories_content"><p>Categories</p>
                             <ul>
                                 <a href="content_filtered.php" onClick={()=> {this.postCategory('1')}}><li>Places</li></a>
                                 <a href="content_filtered.php" onClick={()=> {this.postCategory('2')}}><li>Food</li></a>
-                                <a href="content_filtered.php" onClick={()=> {this.postCategory('3')}}><li>News</li></a>
+                                <a href="content_filtered.php" onClick={()=> {this.postCategory('3')}}><li>Landmarks</li></a>
                                 <a href="content_filtered.php" onClick={()=> {this.postCategory('4')}}><li>Culture</li></a>
                             </ul>
                         </div>

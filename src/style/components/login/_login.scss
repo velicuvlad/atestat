@@ -39,7 +39,7 @@ body {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #484343;
+  color: whitesmoke;
   display: block;
   transition: 0.3s;
 }
@@ -85,9 +85,7 @@ html, body {
   padding: 1px 0;
   height: 100%;
   width: 100%;
-  background-image: url("../../../../back-login.jpg");
-  background-size: cover;
-  color: #fff;
+  background-color:whitesmoke;
   font-family: "Comfortaa", "Helvetica", sans-serif;
 }
 
@@ -95,13 +93,14 @@ html, body {
   width: 300px;
   height: 600px;
   margin: 30px auto;
-  background-color: rgba(10,10,10,.68);
+  background-color: #6f8474;
 }
 
 .login-icon-field {
   height: 250px;
   width: 100%;
-  /*background-color: red;*/
+  background-color: #6f8474;
+
 }
 
 .login-icon {
@@ -112,7 +111,7 @@ html, body {
   padding: 8px 20px 20px;
   height: 120px;
   width: 100%;
-  /*background-color: green;*/
+  background-color: #6f8474;
 }
 
 
@@ -140,13 +139,13 @@ html, body {
 .password-icon .key-path,
 .user-icon .user-path{
   fill: rgba(10,10,10,0);
-  stroke: #fff;
-  stroke-width: 3.5;
+  stroke: black;
+  stroke-width: 3.5px;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
   stroke-dasharray: 300;
-  stroke-dashoffset: 300;
+  stroke-dashoffset: 300px;
   -webkit-animation: dash 3s .3s linear forwards;
   animation: dash 3s .3s linear forwards;
 }
@@ -173,7 +172,7 @@ html, body {
 }
 
 .input-login::-moz-placeholder {
-  color: rgba(255,255,255,.4);
+  color: white;
 }
 
 .call-to-action {
@@ -187,13 +186,14 @@ html, body {
   display: inline-block;
   width: 200px;
   margin: 0 40px;
+  margin-top:10px;
   font-size: .8rem;
-  color: rgba(255,255,255,.4);
+  color: whitesmoke;
   /*background-color: yellow;*/
 }
 
 .p-login a {
-  color: #fff;
+  color: white;
 }
 
 label,

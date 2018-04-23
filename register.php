@@ -10,7 +10,7 @@ sec_session_start();
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Level Up | Inregistrare</title>
+    <title>Personal Blog | Register</title>
     <style>
         #img {
             width: 15%;
@@ -44,13 +44,13 @@ if (!empty($error_msg)) {
     <div class="container-register">
         <div id="login" class="login">
             <div>
-                <div style="padding:10px; text-align:center; font-family:Bebas;">CREEAZA UN CONT NOU</div>
+                <div style="padding:10px; text-align:center; font-family:Bebas;">Create a new account</div>
             </div>
             <form method="post" name="registration_form" action="<?php echo esc_url($_SERVER['PHP_SELF']); ?>">
             <div class="login-form">
                 <div class="username-row row">
                     <label for="username_input"></label>
-                    <input type='text' name='username' id='username' class="input-login" placeholder="Nume de utilizator" required/>
+                    <input type='text' name='username' id='username' class="input-login" placeholder="Username" required/>
                 </div>
 
                 <div class="email-row row">
@@ -62,7 +62,7 @@ if (!empty($error_msg)) {
                     <label for="password_input"></label>
                     <input class="input-login" type="password"
                            name="password"
-                           id="password" placeholder="Parola"/>
+                           id="password" placeholder="Password"/>
                 </div>
 
 
@@ -70,38 +70,38 @@ if (!empty($error_msg)) {
                     <label for="password_input"></label>
                     <input class="input-login" type="password"
                            name="confirmpwd"
-                           id="confirmpwd" placeholder="Confirma parola"/>
+                           id="confirmpwd" placeholder="Confirm password"/>
                 </div>
 
                 <div class="fname-row row">
                     <label for="fname_input"></label>
-                    <input class="input-login" type="text" name="first_name" id="first_name" placeholder="Prenume"/>
+                    <input class="input-login" type="text" name="first_name" id="first_name" placeholder="First Name"/>
                 </div>
 
                 <div class="lname-row row">
                     <label for="lname_input"></label>
-                    <input class="input-login" type="text" name="last_name" id="last_name" placeholder="Numele de familie"/>
+                    <input class="input-login" type="text" name="last_name" id="last_name" placeholder="Last Name"/>
                 </div>
 
                 <div class="birth-row row">
                     <label for="birth_input"></label>
                     <input class="input-login" type="text" name="birthdate" id="birthdate"
-                           placeholder="Ziua de nastere(zi/luna/an)"/>
+                           placeholder="Birthday (dd/mm/yyyy)"/>
                 </div>
 
                 <div class="lname-row row">
                     <label for="publisher_name"></label>
                     <input class="input-login" type="text" name="publisher_name" id="publisher_name"
-                           placeholder="Numele pe care il pot vedea ceilalti utilizatori"/>
+                           placeholder="Nickname"/>
                 </div>
                 <select name="usertype_id" id="usertype_id" class="styled">
-                    <option selected="selected" disabled="">Tipul de cont...</option>
-                    <option value="user">Utilizator</option>
-                    <option value="creator">Creator de jocuri</option>
+                    <option selected="selected" disabled="">Account type</option>
+                    <option value="user">Visitor</option>
+                    <option value="creator">Blogger</option>
                 </select>
                 <div class="button-wrapper">
                     <input class="input-register" type="submit"
-                           value="Inregistrare"
+                           value="Register"
                            onclick="return regformhash(this.form,
                                    this.form.username,
                                    this.form.email,
@@ -114,7 +114,7 @@ if (!empty($error_msg)) {
                                    this.form.publisher_name);"/>
 
             </div>
-                <p class="p-register">Ai deja cont? <a href="login.php" style="text-decoration: none">Login</a></p>
+                <p class="p-register">Already got an account? <a href="login.php" style="text-decoration: none">Login</a></p>
             </div>
                 </form>
         </div>

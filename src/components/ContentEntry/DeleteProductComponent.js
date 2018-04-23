@@ -20,18 +20,18 @@ var DeleteProductComponent = React.createClass({
 
         return (
             <div>
-                <p>Esti sigur ca vrei sa stergi acest articol? Nu il vei putea recupera.</p>
+                <p>Are you sure about deleting this post?</p>
                 <Link to="/content.php"
                       onClick={() => this.props.changeAppMode('readOne', this.props.productId)}
                 >
                     <button onClick={this.onDelete}
-                            className='btn btn-danger m-r-1em'>Da
+                            className='btn btn-danger m-r-1em'>Yes
                     </button>
                 </Link>
                 <Link to="/content.php"
                       onClick={() => this.props.changeAppMode('readOne', this.props.productId)}>
                     <button
-                        className='btn btn-primary'>Nu
+                        className='btn btn-primary'>No
                     </button>
                 </Link>
             </div>

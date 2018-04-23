@@ -16,7 +16,7 @@ var ProductsTable = React.createClass({
 
         return (
             !rows.length
-                ? <div className='alert alert-danger'>Nu a putut fi gasit niciun articol dupa filtrele dumneavoastra.</div>
+                ? <div className='alert alert-danger'>Cannot find any articles</div>
                 :
                 <div className="product-background">
                     {rows}

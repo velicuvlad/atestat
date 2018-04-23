@@ -14,7 +14,7 @@ if (login_check($mysqli) == true) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Personal Blog | Logare</title>
+    <title>Personal Blog | Log in</title>
 
     <style>        #img {
             width: 15%;
@@ -43,7 +43,7 @@ if (login_check($mysqli) == true) {
 if (isset($_GET['error'])) {
     echo '<div class="error-wrapper">
                 <div class="error">
-                    <p>Email sau parola invalid</p>
+                    <p>Email / password invalid</p>
                 </div>
            </div>
            ';
@@ -52,7 +52,7 @@ if (isset($_GET['error'])) {
     <div class="container-login">
         <div id="login" class="login">
             <div class="login-icon-field">
-                <div style="font-family:Bebas,'sans-serif'; font-size:3vw; text-align:center; color:white;padding:20%;">Logare</div>
+                <div style="font-family:Bebas,'sans-serif'; font-size:3vw; text-align:center; color:white;padding:20%;">Log in</div>
             </div>
             <div class="login-form">
                 <form action="includes/process_login.php" method="post" name="login_form">
@@ -81,10 +81,11 @@ if (isset($_GET['error'])) {
                     <input type="password" class="input-login" id="password" name="password"
                            placeholder="Parola"/>
                     <div class="call-to-action">
-                        <input class="input-register" type="submit" value="Logheaza-te" id="login-button"
+                        <input class="input-register" type="submit" value="Log in" id="login-button"
                                onclick="formhash(this.form, this.form.password);"/>
 
-                        <p class="p-login">Nou pe LevelUp? <a href="register.php" style="text-decoration: none">Creeaza un cont.</a></p>
+                        <p class="p-login">New on Personal Blog? <a href="register.php" style="text-decoration: none">
+                                   Create an account.</a></p>
                     </div>
                 </div>
                 </form>

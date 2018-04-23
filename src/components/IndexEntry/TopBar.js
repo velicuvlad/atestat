@@ -9,8 +9,8 @@ class TopBar extends React.Component {
                         <div className="menu-desktop">
                             <div className="menu--text desktop">
                                 <ul className="navigation">
-                                    <li><a href="index.php">Acasa</a></li>
-                                    <li><a href="content_newest.php">Articole</a></li>
+                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="content_newest.php">Articles</a></li>
                                     <li><a href="login.php">Login</a></li>
                                     <li><a href="register.php">Signup</a></li>
                                 </ul>

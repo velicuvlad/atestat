@@ -8,7 +8,7 @@ var ProductRow = React.createClass({
                 <span className="link">
                 <Link to="/index.php" onClick={() => this.props.changeAppMode('readOne', this.props.product.id) }>
                     <img className="left_img" src={this.props.product.photo}
-                         alt="Utilizatorul nu a pus la dispozitie nicio poza sau ea nu a putut fi incarcata."/>
+                         alt="No photo available"/>
                     <div className="productName">{this.props.product.name}</div>
                     </Link></span>
             </div>

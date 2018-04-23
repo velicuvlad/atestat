@@ -105,7 +105,7 @@ var UpdateProductComponent = React.createClass({
                 {
                     this.state.successUpdate == "true" ?
                         <div className='alert alert-success'>
-                            Articolul a fost updatat.Te rugam sa reincarci pagina ca sa vezi rezultatele.
+                            The article has been updated.Please reload the page in order to view the changes.
                         </div>
                         : null
                 }
@@ -113,7 +113,7 @@ var UpdateProductComponent = React.createClass({
                 {
                     this.state.successUpdate == "false" ?
                         <div className='alert alert-danger'>
-                            Articolul nu a putut fi updatat. Te rugam sa incerci din nou.
+                            The article cannot be updated. Please try again.
                         </div>
                         : null
                 }
@@ -128,7 +128,7 @@ var UpdateProductComponent = React.createClass({
                     <table className='table'>
                         <tbody>
                         <tr>
-                            <td>Nume</td>
+                            <td>Name</td>
                             <td>
                                 <input
                                     type='text'
@@ -140,7 +140,7 @@ var UpdateProductComponent = React.createClass({
                         </tr>
 
                         <tr>
-                            <td>Descriere</td>
+                            <td>Description</td>
                             <td>
                             <textarea
                                 type='text'
@@ -152,7 +152,7 @@ var UpdateProductComponent = React.createClass({
                         </tr>
 
                         <tr>
-                            <td>Pret</td>
+                            <td>Price</td>
                             <td>
                                 <input
                                     type='number'
@@ -165,7 +165,7 @@ var UpdateProductComponent = React.createClass({
                         </tr>
 
                         <tr>
-                            <td>Genul</td>
+                            <td>Type</td>
                             <td>
                                 <select
                                     onChange={this.onCategoryChange}
@@ -177,20 +177,9 @@ var UpdateProductComponent = React.createClass({
                             </td>
                         </tr>
 
-                        <tr>
-                            <td>Demo link</td>
-                            <td>
-                                <input
-                                    type="text"
-                                    className="form-control"
-                                    value={this.state.link}
-                                    required
-                                    onChange={this.onLinkChange}/>
-                            </td>
-                        </tr>
 
                         <tr>
-                            <td>Poza de coperta</td>
+                            <td>Picture</td>
                             <td>
                                 <input
                                     type="text"
@@ -201,16 +190,6 @@ var UpdateProductComponent = React.createClass({
                             </td>
                         </tr>
 
-                        <tr>
-                            <td>Link spre trailer Youtube</td>
-                            <td>
-                                <input
-                                    type="text"
-                                    className="form-control"
-                                    value={this.state.yt_link}
-                                    onChange={this.onYTChange}/>
-                            </td>
-                        </tr>
 
                         <tr>
                             <td></td>
@@ -223,7 +202,7 @@ var UpdateProductComponent = React.createClass({
                                       className="btn btn-danger"
                                       onClick={() => this.props.changeAppMode('readOne', this.props.productId)}
                                 >
-                                    Anuleaza
+                                    Cancel
                                 </Link>
                             </td>
                         </tr>

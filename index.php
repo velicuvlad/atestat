@@ -8,7 +8,6 @@ sec_session_start();
 <html lang="en">
 <head>
     <meta charset="utf-8">
-
     <title>Personal Blog</title>
 
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.js"></script>
@@ -19,7 +18,7 @@ sec_session_start();
 
     <link href="libs/css/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="src/style/entry/main.css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
 
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>

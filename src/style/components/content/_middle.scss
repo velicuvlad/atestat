@@ -25,6 +25,7 @@
   background-color: white;
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
+  color: #560000;
 }
 
 .delete-edit-effects {
@@ -38,7 +39,7 @@
   float: left;
   width: 35%;
   height: 100%;
-  background: #141319;
+  background: #6c8973;
 
   @media (max-width: 1000px) {
     width: 100%;
@@ -48,7 +49,7 @@
 .right {
   float: right;
   width: 65%;
-  background: #141319;
+  background: #6c8973;
   height: 85%;
   margin-top: 0;
   margin-left: 35%;
@@ -90,7 +91,7 @@
 }
 
 .left_text {
-  color: #6adaff;
+  color: #560000;
   font-family: Bebas,'sans-serif';
   font-size: 40px;
   text-decoration: none;
@@ -101,7 +102,7 @@
 .description-container {
   font-family: Bebas,'sans-serif';
   font-size: 16px;
-  color: #6adaff;
+  color: #560000;
   padding: 10px;
 }
 

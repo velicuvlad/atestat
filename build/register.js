@@ -22182,7 +22182,7 @@
 	                                        _react2.default.createElement(
 	                                            "a",
 	                                            { href: "index.php" },
-	                                            "Acasa"
+	                                            "Home"
 	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
@@ -22191,7 +22191,7 @@
 	                                        _react2.default.createElement(
 	                                            "a",
 	                                            { href: "content.php" },
-	                                            "Jocuri"
+	                                            "Articles"
 	                                        )
 	                                    ),
 	                                    _react2.default.createElement(
@@ -22200,7 +22200,7 @@
 	                                        _react2.default.createElement(
 	                                            "a",
 	                                            { href: "faq.php" },
-	                                            "Despre noi"
+	                                            "About us"
 	                                        )
 	                                    ),
 	                                    _react2.default.createElement(

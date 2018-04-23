@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/julianatanasoae/openingopportunities",
   "dependencies": {
+    "ajax": "0.0.4",
     "babel-preset-latest": "^6.16.0",
     "bootstrap": "^3.3.7",
     "classnames": "^2.2.5",
@@ -35,11 +36,12 @@
     "json2mq": "^0.2.0",
     "jwt-decode": "^2.1.0",
     "object-assign": "^4.1.0",
-    "react": "^15.4.1",
+    "react": "^0.12.2",
     "react-ajax": "^0.1.1",
     "react-bootstrap": "^0.30.7",
     "react-coverflow": "^0.2.3",
     "react-dom": "^15.4.1",
+    "react-native-cli": "^2.0.1",
     "react-nav-bar": "^0.6.4",
     "react-redux": "^5.0.1",
     "react-router": "^2.8.1"

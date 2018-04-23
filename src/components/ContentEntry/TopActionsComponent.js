@@ -8,7 +8,7 @@ var TopActionsComponent = React.createClass({
                 <span >
                 <Link to="content.php"
                       className='btn btn-primary'
-                >Adauga un articol nou</Link>
+                >Add a new article</Link>
                 </span>
             </div>
         );

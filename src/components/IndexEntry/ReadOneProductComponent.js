@@ -82,13 +82,9 @@ var ReadOneProductComponent = React.createClass({
                         <div>
                             {this.state.category_name}
                         </div>
-                        <div>
-                            <a href={this.state.link}>Download Link</a>
-                        </div>
+
                     </div>
                     <div className="trailer">
-                        <iframe width="100%" height="100%" src={this.state.yt_link} frameBorder="0"
-                                allowFullScreen style={{background: "#141319"}} allowTransparency="true"></iframe>
                     </div>
                 </div>
             </div>

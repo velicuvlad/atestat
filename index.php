@@ -42,6 +42,7 @@ sec_session_start();
     <script type="text/javascript" src="/build/index.js"></script>
     <script src="libs/js/jquery.js"></script>
     <script src="libs/css/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/js/bin/materialize.min.js"></script>
 
 <?php endif; ?>
 </body>

@@ -1,6 +1,7 @@
 import React from 'react'
 import $ from 'jquery'
 import ProductsTable from './ProductsTable'
+import ProductsTable2 from './ProductsTable2'
 import ReadOneProductComponent from './ReadOneProductComponent'
 
 var ReadProductsComponent = React.createClass({
@@ -48,15 +49,20 @@ var ReadProductsComponent = React.createClass({
         // list of products
         var filteredProducts = this.state.products;
         $('.page-header h1').text('Read Products');
+        let left = [];
+        let right = [];
+
+        for (let i = 0; i < filteredProducts.length; i++)
+            if (i % 2 === 0) left.push(filteredProducts[i])
+            else right.push(filteredProducts[i])
 
         return (
             <div className="readContainer">
                 <ProductsTable
-                    products={filteredProducts}
+                    products={left}
                     changeAppMode={this.changeAppMode}/>
-                <div className="product-background">
-                    <ReadOneProductComponent products={filteredProducts} productId={this.state.currentId}/>
-                </div>
+                <ProductsTable2 products={right}
+                                changeAppMode={this.changeAppMode}/>
             </div>
         );
     }

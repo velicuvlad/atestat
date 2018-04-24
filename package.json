@@ -36,7 +36,7 @@
     "json2mq": "^0.2.0",
     "jwt-decode": "^2.1.0",
     "object-assign": "^4.1.0",
-    "react": "^0.12.2",
+    "react": "^15.4.1",
     "react-ajax": "^0.1.1",
     "react-bootstrap": "^0.30.7",
     "react-coverflow": "^0.2.3",

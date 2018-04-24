@@ -54,7 +54,7 @@
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
-	var _TopBar = __webpack_require__(302);
+	var _TopBar = __webpack_require__(304);
 
 	var _TopBar2 = _interopRequireDefault(_TopBar);
 
@@ -22123,7 +22123,9 @@
 /* 299 */,
 /* 300 */,
 /* 301 */,
-/* 302 */
+/* 302 */,
+/* 303 */,
+/* 304 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";

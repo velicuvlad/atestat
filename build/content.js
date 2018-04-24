@@ -38647,23 +38647,9 @@
 	                        'div',
 	                        null,
 	                        this.state.category_name
-	                    ),
-	                    _react2.default.createElement(
-	                        'div',
-	                        null,
-	                        _react2.default.createElement(
-	                            'a',
-	                            { href: this.state.link },
-	                            'Download Link'
-	                        )
 	                    )
 	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'trailer' },
-	                    _react2.default.createElement('iframe', { width: '100%', height: '100%', src: this.state.yt_link, frameBorder: '0',
-	                        allowFullScreen: true, style: { background: "#141319" }, allowTransparency: 'true' })
-	                )
+	                _react2.default.createElement('div', { className: 'trailer' })
 	            )
 	        );
 	    }

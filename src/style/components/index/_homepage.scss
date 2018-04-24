@@ -10,6 +10,10 @@
   src: url('../../../../SourceSansPro-Regular.ttf');
 }
 
+
+.table{
+  margin-bottom:40px;
+}
 body {
   padding: 0;
   margin: 0;
@@ -21,7 +25,7 @@ body {
 .product-background {
   width: 100%;
   background-color: whitesmoke;
-  margin: 0;
+  margin-top:20px;
   padding: 10px;
 }
 
@@ -46,7 +50,7 @@ body {
 .Title {
   width: 100%;
   height: auto;
-  color: #ffffff;
+  color: #560000;
   font-family: Laksaman, sans-serif;
   font-size: 5vw;
   text-align: center;
@@ -56,6 +60,7 @@ body {
     padding: 50px;
     margin-bottom: 0;
     margin-top: 0;
+    color:whitesmoke;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;

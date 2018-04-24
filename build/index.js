@@ -38360,7 +38360,11 @@
 
 	var _ProductsTable2 = _interopRequireDefault(_ProductsTable);
 
-	var _ReadOneProductComponent = __webpack_require__(294);
+	var _ProductsTable3 = __webpack_require__(294);
+
+	var _ProductsTable4 = _interopRequireDefault(_ProductsTable3);
+
+	var _ReadOneProductComponent = __webpack_require__(296);
 
 	var _ReadOneProductComponent2 = _interopRequireDefault(_ReadOneProductComponent);
 
@@ -38412,18 +38416,19 @@
 	        // list of products
 	        var filteredProducts = this.state.products;
 	        (0, _jquery2.default)('.page-header h1').text('Read Products');
+	        var left = [];
+	        var right = [];
 
-	        return _react2.default.createElement(
+	        for (var i = 0; i < filteredProducts.length; i++) {
+	            if (i % 2 === 0) left.push(filteredProducts[i]);else right.push(filteredProducts[i]);
+	        }return _react2.default.createElement(
 	            'div',
 	            { className: 'readContainer' },
 	            _react2.default.createElement(_ProductsTable2.default, {
-	                products: filteredProducts,
+	                products: left,
 	                changeAppMode: this.changeAppMode }),
-	            _react2.default.createElement(
-	                'div',
-	                { className: 'product-background' },
-	                _react2.default.createElement(_ReadOneProductComponent2.default, { products: filteredProducts, productId: this.state.currentId })
-	            )
+	            _react2.default.createElement(_ProductsTable4.default, { products: right,
+	                changeAppMode: this.changeAppMode })
 	        );
 	    }
 	});
@@ -38540,6 +38545,102 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _ProductRow = __webpack_require__(295);
+
+	var _ProductRow2 = _interopRequireDefault(_ProductRow);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var ProductsTable2 = _react2.default.createClass({
+	    displayName: 'ProductsTable2',
+
+	    render: function render() {
+
+	        var rows = this.props.products.map(function (product, i) {
+	            return _react2.default.createElement(_ProductRow2.default, {
+	                key: i,
+	                product: product,
+	                changeAppMode: this.props.changeAppMode });
+	        }.bind(this));
+
+	        return !rows.length ? _react2.default.createElement(
+	            'div',
+	            { className: 'alert alert-danger' },
+	            'Cannot find any articles'
+	        ) : _react2.default.createElement(
+	            'div',
+	            { className: 'product-background' },
+	            rows
+	        );
+	    }
+	});
+
+	exports.default = ProductsTable2;
+
+/***/ }),
+/* 295 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(184);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var ProductRow2 = _react2.default.createClass({
+	    displayName: 'ProductRow2',
+
+	    render: function render() {
+	        var _this = this;
+
+	        return _react2.default.createElement(
+	            'div',
+	            { className: 'table', style: { textDecoration: 'none' } },
+	            _react2.default.createElement(
+	                'span',
+	                { className: 'link' },
+	                _react2.default.createElement(
+	                    _reactRouter.Link,
+	                    { to: '/index.php', onClick: function onClick() {
+	                            return _this.props.changeAppMode('readOne', _this.props.product.id);
+	                        } },
+	                    _react2.default.createElement('img', { className: 'left_img', src: this.props.product.photo,
+	                        alt: 'No photo available' }),
+	                    _react2.default.createElement(
+	                        'div',
+	                        { className: 'productName' },
+	                        this.props.product.name
+	                    )
+	                )
+	            )
+	        );
+	    }
+	});
+
+	exports.default = ProductRow2;
+
+/***/ }),
+/* 296 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
 	var _jquery = __webpack_require__(250);
 
 	var _jquery2 = _interopRequireDefault(_jquery);
@@ -38635,23 +38736,9 @@
 	                        'div',
 	                        null,
 	                        this.state.category_name
-	                    ),
-	                    _react2.default.createElement(
-	                        'div',
-	                        null,
-	                        _react2.default.createElement(
-	                            'a',
-	                            { href: this.state.link },
-	                            'Download Link'
-	                        )
 	                    )
 	                ),
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'trailer' },
-	                    _react2.default.createElement('iframe', { width: '100%', height: '100%', src: this.state.yt_link, frameBorder: '0',
-	                        allowFullScreen: true, style: { background: "#141319" }, allowTransparency: 'true' })
-	                )
+	                _react2.default.createElement('div', { className: 'trailer' })
 	            )
 	        );
 	    }

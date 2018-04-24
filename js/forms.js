@@ -19,14 +19,14 @@ function formhash(form, password) {
 function regformhash(form, uid, email, password, conf) {
     // Check each field has a value
     if (uid.value == '' || email.value == '' || password.value == '' || conf.value == '') {
-        alert('Te rugam sa introduci toate datele.');
+        alert('Complet all');
         return false;
     }
 
     // Check the username
     re = /^\w+$/;
     if(!re.test(form.username.value)) {
-        alert("Numele poate contine doar litere, numere . '_' ");
+        alert("Name can contain letters, numbers and . '_' ");
         form.username.focus();
         return false;
     }
@@ -44,13 +44,13 @@ function regformhash(form, uid, email, password, conf) {
     // At least six characters
     var re = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/;
     if (!re.test(password.value)) {
-        alert('Parola trebuie sa aiba cel putin 6 caractere si sa contina o litera mare, una mica si cifre. Te rugam sa incerci din nou');
+        alert('Requirements: at least 6 characters, one capital, one number.');
         return false;
     }
 
     // Check password and confirmation are the same
     if (password.value != conf.value) {
-        alert('Cele doua parole nu corespund. Te rugam sa incerci din nou');
+        alert('Password doesnt match. Try again');
         form.password.focus();
         return false;
     }

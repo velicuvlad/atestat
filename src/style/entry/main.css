@@ -443,12 +443,11 @@ label,
       width: 100%; } }
 
 .right {
-  float: right;
+  float: left;
   width: 65%;
   background: #6c8973;
   height: 85%;
-  margin-top: 0;
-  margin-left: 35%; }
+  margin-top: 0; }
   @media (max-width: 1000px) {
     .right {
       width: 100%;
@@ -512,6 +511,9 @@ label,
 @font-face {
   font-family: SSP;
   src: url("../../../../SourceSansPro-Regular.ttf"); }
+.table {
+  margin-bottom: 40px; }
+
 body {
   padding: 0;
   margin: 0;
@@ -522,7 +524,7 @@ body {
 .product-background {
   width: 100%;
   background-color: whitesmoke;
-  margin: 0;
+  margin-top: 20px;
   padding: 10px; }
 
 .product .td-head {
@@ -540,7 +542,7 @@ body {
 .Title {
   width: 100%;
   height: auto;
-  color: #ffffff;
+  color: #560000;
   font-family: Laksaman, sans-serif;
   font-size: 5vw;
   text-align: center;
@@ -550,6 +552,7 @@ body {
     padding: 50px;
     margin-bottom: 0;
     margin-top: 0;
+    color: whitesmoke;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;

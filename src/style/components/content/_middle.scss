@@ -47,12 +47,11 @@
 }
 
 .right {
-  float: right;
+  float: left;
   width: 65%;
   background: #6c8973;
   height: 85%;
   margin-top: 0;
-  margin-left: 35%;
 
   @media (max-width: 1000px) {
     width: 100%;

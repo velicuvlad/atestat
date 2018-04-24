@@ -38228,7 +38228,7 @@
 	                _react2.default.createElement(
 	                    'p',
 	                    null,
-	                    'Cele mai noi articole'
+	                    'New articles'
 	                )
 	            ),
 	            _react2.default.createElement(
@@ -38372,7 +38372,7 @@
 
 	var _ProductsTable2 = _interopRequireDefault(_ProductsTable);
 
-	var _ProductsTable3 = __webpack_require__(305);
+	var _ProductsTable3 = __webpack_require__(303);
 
 	var _ProductsTable4 = _interopRequireDefault(_ProductsTable3);
 
@@ -38661,9 +38661,7 @@
 	exports.default = ProductRow;
 
 /***/ }),
-/* 303 */,
-/* 304 */,
-/* 305 */
+/* 303 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -38676,7 +38674,7 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _ProductRow = __webpack_require__(306);
+	var _ProductRow = __webpack_require__(304);
 
 	var _ProductRow2 = _interopRequireDefault(_ProductRow);
 
@@ -38709,7 +38707,7 @@
 	exports.default = ProductsTable2;
 
 /***/ }),
-/* 306 */
+/* 304 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';

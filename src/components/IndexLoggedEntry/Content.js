@@ -38,7 +38,7 @@ var Content = React.createClass({
                     </div>
                 </div>
                 <div className="newest">
-                    <p>Cele mai noi articole</p></div>
+                    <p>New articles</p></div>
                 <div className="">
                     {this.props.children}
                 </div>

@@ -57,6 +57,7 @@ var ReadProductsComponent = React.createClass({
             else right.push(filteredProducts[i])
 
         return (
+
             <div className="readContainer">
                 <ProductsTable
                     products={left}

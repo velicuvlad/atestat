@@ -2,7 +2,7 @@
 
 <h1><i>Ideea din spatele proiectului</i></h1>
 
-<p>"Personal Blog" este o platforma web dedicata tuturor. Oferim o platforma unde iti poti impartaasii experientele referitoare la mancare, obiective turistice etc. pentru a-i ajutaa pe ceilalti sa le imbunatateasca pe ale lor. Platforma este in limba engleza :)</p>
+<p>"Personal Blog" este o platforma web dedicata tuturor. Oferim o platforma unde iti poti impartaasii experientele referitoare la mancare, obiective turistice etc. pentru a-i ajuta pe ceilalti sa le imbunatateasca pe ale lor. Platforma este in limba engleza :)</p>
 
 <h1><i>Cerinte de sistem - pt folosire</i></h1>
 
@@ -30,7 +30,7 @@ npm -v
 ```
 
 <p>Site-ul a fost dezvoltat in Chrome si testat pe Chrome si Firefox.</p>
-<p>Proiectul nu vine cu o baza de date atasata.</p>
+<p>Proiectul nu vine cu baza de date atasata.</p>
 
 <h1><i>Structura fisierului</i></h1>
 <pre>
@@ -219,7 +219,7 @@ npm -v
 
 <h1><i>Folosire</i></h1>
 
-<h3><i>Baza de da</i></h3>
+<h3><i>Baza de date</i></h3>
 
 <p>PhpMyAdmin este un soft gratuit, destinat să gestioneze administrarea MySQL pe Web. phpMyAdmin suportă o gamă largă de operații in MySQL și MariaDB.</p>
 
@@ -266,5 +266,9 @@ npm -v
 
 <h3><i>Probleme:</i></h3>
 
-<p> Cateodata se delogheazaa automat la schimbarea paginii. - inca in lucru </p>
+<h5> Cateodata se delogheaza automat la schimbarea paginii. - inca in lucru </h5>
+<h5> Orice problemă găsită pe site ar trebui să fie bine documentată și postata în secțiunea "Issues" pe GitHub</h5>
+
+<h1>Creators:</h1>
+<h5>Vlad-Alexandru Velicu</h5>
 

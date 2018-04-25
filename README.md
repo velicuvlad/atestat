@@ -34,6 +34,114 @@ npm -v
 
 <h1><i>File structure</i></h1>
 <pre>
+/atestat-master/
+| -- api
+|   | -- create_product.php
+|   | -- delete_product.php
+|   | -- read_all_categories.php
+|   | -- read_all_products.php
+|   | -- read_all_products_filtered.php
+|   | -- read_all_products_main_page.php
+|   | -- read_all_products_newest.php
+|   | -- read_all_products_not_logged.php
+|   | -- read_one_product.php
+|   | -- update_product.php
+| -- build
+|   | -- content.js
+|   | -- content_filtered.js
+|   | -- contentnewest.js
+|   | -- contentnotloggedfiltered.js
+|   | -- contentnotloggednewest.js
+|   | -- faqLogged.js
+|   | -- faqNotLogged.js
+|   | -- index.js
+|   | -- indexlogged.js
+|   | -- login.js
+|   | -- register.js
+| -- config
+|   | -- core.php
+|   | -- database.php
+| -- includes
+|   | -- db_connect.php
+|   | -- functions.php
+|   | -- logout.php
+|   | -- process_login.php
+|   | -- psl-config.php
+|   | -- register.inc.php
+|   | -- session.php
+| -- js
+|   | -- forms-compiled-compiled-compiled.js
+|   | -- forms-compiled-compiled-compiled.js.map
+|   | -- forms-compiled-compiled.js
+|   | -- forms-compiled-compiled.js.map
+|   | -- forms-compiled.js
+|   | -- forms-compiled.js.map
+|   | -- forms.js
+|   | -- sha512-compiled-compiled.js
+|   | -- sha512-compiled-compiled.js.map
+|   | -- sha512-compiled.js
+|   | -- sha512-compiled.js.map
+|   | -- sha512.js
+| -- objects
+|   | -- category.php
+|   | -- product.php
+| -- src
+|   | -- components
+|   |   | -- ContentEntry
+|   |   |   | -- Content.js
+|   |   |   | -- CreateProductComponent.js
+|   |   |   | -- DeleteProductComponent.js
+|   |   |   | -- MainApp.js
+|   |   |   | -- ProductRow.js
+|   |   |   | -- ProductsTable.js
+|   |   |   | -- ReadOneProductComponent.js
+|   |   |   | -- ReadProductsComponent.js
+|   |   |   | -- TopActionsComponent.js
+|   |   |   | -- TopBar.js
+|   |   |   | -- UpdateProductComponent.js
+|   |   | -- ContentFilteredEntry
+|   |   |   | -- Content.js
+|   |   |   | -- ProductRow.js
+|   |   |   | -- ProductsTable.js
+|   |   |   | -- ReadOneProductComponent.js
+|   |   |   | -- ReadProductsComponent.js
+|   |   |   | -- TopBar.js
+|   |   | -- ContentNewestEntry
+|   |   |   | -- Content.js
+|   |   |   | -- ProductRow.js
+|   |   |   | -- ProductsTable.js
+|   |   |   | -- ReadOneProductComponent.js
+|   |   |   | -- ReadProductsComponent.js
+|   |   |   | -- TopBar.js
+|   |   | -- ContentNotLoggedFilteredEntry
+|   |   |   | -- Content.js
+|   |   |   | -- ProductRow.js
+|   |   |   | -- ProductsTable.js
+|   |   |   | -- ReadOneProductComponent.js
+|   |   |   | -- ReadProductsComponent.js
+|   |   |   | -- TopBar.js
+|   |   | -- ContentNotLoggedNewestEntry
+|   |   |   | -- Content.js
+|   |   |   | -- ProductRow.js
+|   |   |   | -- ProductsTable.js
+|   |   |   | -- ReadOneProductComponent.js
+|   |   |   | -- ReadProductsComponent.js
+|   |   |   | -- TopBar.js
+|   |   | -- FAQLoggedEntry
+|   |   | -- FAQNotLoggedEntry
+|   |   | -- IndexEntry
+|   |   | -- IndexLoggedEntry
+|   |   | -- LoginPage
+|   |   | -- RegisterPage
+
+|   | -- entry
+|   | -- style
+|   |   | --
+|
+|
+|
+|
+
 
 </pre>
 

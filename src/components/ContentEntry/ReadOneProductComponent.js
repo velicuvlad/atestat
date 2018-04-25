@@ -70,7 +70,7 @@ var ReadOneProductComponent = React.createClass({
                     {this.state.name}
                 </div>
                 <div className="description-container">
-                    Creat de: vladv {this.state.publisher_name}
+                    Created by: vladv {this.state.publisher_name}
                     <div className="trailer-type-demolink">
                         <div>
                             Category: {this.state.category_name}

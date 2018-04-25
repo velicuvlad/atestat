@@ -461,7 +461,8 @@ label,
 .trailer-type-demolink {
   display: flex;
   flex: 1;
-  justify-content: space-between; }
+  justify-content: space-between;
+  font-weight: 700; }
 
 .trailer {
   height: 100%;
@@ -486,13 +487,15 @@ label,
   text-align: center; }
 
 .description-container {
-  font-family: Bebas,'sans-serif';
+  font-family: SSP,'sans-serif';
   font-size: 16px;
   color: #560000;
-  padding: 10px; }
+  padding: 10px;
+  font-weight: 700;
+  margin-left: 5%; }
 
 .right_text {
-  text-align: center; }
+  text-align: left; }
   .right_text .title {
     font-size: 16px;
     font-family: "SSP", sans-serif; }
@@ -502,8 +505,9 @@ label,
   font-family: SSP,'sans-serif';
   color: white;
   margin-top: 2%;
-  text-align: center;
-  padding: 10px; }
+  text-align: left;
+  padding: 10px;
+  font-weight: 500; }
 
 @font-face {
   font-family: Bebas;
@@ -547,7 +551,8 @@ body {
   font-size: 5vw;
   text-align: center;
   font-weight: bold;
-  font-style: oblique; }
+  font-style: oblique;
+  margin-top: 50px; }
   .Title p {
     padding: 50px;
     margin-bottom: 0;

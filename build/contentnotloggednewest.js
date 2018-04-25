@@ -38517,21 +38517,23 @@
 	            _react2.default.createElement(
 	                'div',
 	                { className: 'description-container' },
-	                'Creat de: ',
+	                'Creat de: vladv ',
 	                this.state.publisher_name,
-	                _react2.default.createElement(
-	                    'div',
-	                    { className: 'right_text1' },
-	                    this.state.description
-	                ),
 	                _react2.default.createElement(
 	                    'div',
 	                    { className: 'trailer-type-demolink' },
 	                    _react2.default.createElement(
 	                        'div',
 	                        null,
+	                        'Category: ',
 	                        this.state.category_name
 	                    )
+	                ),
+	                _react2.default.createElement(
+	                    'div',
+	                    { className: 'right_text1' },
+	                    'Details: ',
+	                    this.state.description
 	                ),
 	                _react2.default.createElement('div', { className: 'trailer' })
 	            )

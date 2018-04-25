@@ -73,15 +73,16 @@ var ReadOneProductComponent = React.createClass({
                     {this.state.name}
                 </div>
                 <div className="description-container">
-                    Creat de: {this.state.publisher_name}
-                    <div className="right_text1">
-                        {this.state.description}
-                    </div>
+                    Creat de: vladv {this.state.publisher_name}
                     <div className="trailer-type-demolink">
                         <div>
-                            {this.state.category_name}
+                            Category: {this.state.category_name}
                         </div>
                     </div>
+                    <div className="right_text1">
+                        Details: {this.state.description}
+                    </div>
+
                     <div className="trailer">
                     </div>
                 </div>

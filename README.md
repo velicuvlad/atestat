@@ -269,6 +269,6 @@ npm -v
 <h5> Cateodata se delogheaza automat la schimbarea paginii. - inca in lucru </h5>
 <h5> Orice problemă găsită pe site ar trebui să fie bine documentată și postata în secțiunea "Issues" pe GitHub</h5>
 
-<h1>Creators:</h1>
+<h1>Creator:</h1>
 <h5>Vlad-Alexandru Velicu</h5>
 

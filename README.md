@@ -2,7 +2,7 @@
 
 <h1><i>Ideea din spatele proiectului</i></h1>
 
-<p>"Personal Blog" este o platforma web dedicata tuturor. Oferim o platforma unde iti poti impartaasii experientele referitoare la mancare, obiective turistice etc. pentru a-i ajuta pe ceilalti sa le imbunatateasca pe ale lor. Platforma este in limba engleza :)</p>
+<p>"Personal Blog" este o platforma web dedicata tuturor. Oferim o platforma unde iti poti impartasii experientele referitoare la mancare, obiective turistice etc. pentru a-i ajuta pe ceilalti sa le imbunatateasca pe ale lor. Platforma este in limba engleza :)</p>
 
 <h1><i>Cerinte de sistem - pt folosire</i></h1>
 
